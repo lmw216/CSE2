@@ -19,11 +19,12 @@ public class FourDigits{
         System.out.print("Enter a double and I display the four digits to the right of the decimal point- ");
                                 // Asks user to input a double
                                 
-        double myDouble = 10000 * myScanner.nextDouble();
+        double myDouble = 10000 * myScanner.nextDouble(); //This multiplies what the user inputs by 10000
         
-        int myNumber = (int)myDouble;
+        int myNumber = (int)myDouble; //this changes the my double to an integer
         
-        int myDigits = myNumber % 10000;
+        int myDigits = myNumber % 10000; //divides integer number by 10000 and gives the remainder
+                                         //this remainder is the fourdigits past the decimal point in the double
         
         System.out.println(myDigits);
         
