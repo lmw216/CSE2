@@ -76,8 +76,10 @@ public class Roulette{
             return;
         }
         
+        Money = Money * 3;//total money won
+        
         System.out.println("You've won " + wins + " times.");
-        System.out.println("You've profited " + Money + " times.");
+        System.out.println("You've profited $" + Money);
         System.out.println("You've lost all your money " + noMoney + " times." );
     }
 }
