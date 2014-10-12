@@ -44,10 +44,9 @@ public class Roulette{
                     if(rando==x){//if the random equals the input
                         
                         Match = Match +1;//number of wins
+                        wins = wins + 1;
                         
                     }
-                    
-                    wins = wins + Match;//tallies wins
                     
                     if (Match >= 3){
                         
@@ -65,7 +64,7 @@ public class Roulette{
                 
             counter2 = 0;//reset counter2
                     
-            Match = 0;//resets counter1
+            Match = 0;//resets match
                     
             counter1 = counter1 + 1;//1000 sentinel
             
