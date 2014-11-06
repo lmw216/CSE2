@@ -1,3 +1,6 @@
+//Liam Walsh
+//lab08
+
 import java.util.Scanner;
 public class MoreLoops{
 	public static void main(String[] arg){
